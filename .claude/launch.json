@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sunrise",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "-l", "4321", "."],
+      "port": 4321
+    },
+    {
+      "name": "profusion",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "profusion", "run", "dev"],
+      "port": 3200
+    }
+  ]
+}
